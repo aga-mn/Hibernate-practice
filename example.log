@@ -1,0 +1,424 @@
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@140ef69
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@140ef69
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@42299e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@42299e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@eea883
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@e551a4
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@1563b4b
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1563b4b
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@1026d9f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1026d9f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@1a32ecd
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1a32ecd
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@1ee68d1
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1ee68d1
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1ee68d1
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1bdc777
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@10540f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@10540f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@10540f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@12dc21d
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@1f4ff9
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1f4ff9
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@167523a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@167523a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@fe2479
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@fe2479
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@4dabd7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4dabd7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@15206d0
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@15206d0
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@e6ace7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@dc6233
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@2096d7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@2096d7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@2096d7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@e40f4c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@e40f4c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@e40f4c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@1e8f789
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@1e3f69
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@1e3f69
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@1e3f69
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7cb926
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7cb926
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7cb926
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@553ddb
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@1c5d5e4
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@c4d1a7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@c4d1a7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@55fd43
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@6bfafb
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6bfafb
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@152a84b
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@152a84b
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7bc9a9
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@815832
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@aa3152
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@a6e020
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@a6e020
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@482417
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@397bcb
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1ee5bed
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1d54d9a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@d9ceea
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@19f9f8e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@a44130
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1b3c607
+INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.3.5.Final}
+INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+INFO main org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+DEBUG main org.hibernate.internal.util.xml.DTDEntityResolver - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+DEBUG main org.hibernate.internal.util.xml.DTDEntityResolver - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+DEBUG main org.hibernate.internal.util.xml.DTDEntityResolver - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+DEBUG main org.hibernate.cfg.Configuration - hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+DEBUG main org.hibernate.cfg.Configuration - hibernate.connection.driver_class=org.postgresql.Driver
+DEBUG main org.hibernate.cfg.Configuration - hibernate.connection.username=postgres
+DEBUG main org.hibernate.cfg.Configuration - hibernate.connection.password=password
+DEBUG main org.hibernate.cfg.Configuration - hibernate.connection.url=jdbc:postgresql://localhost:5432/hibernatedb
+DEBUG main org.hibernate.cfg.Configuration - hibernate.hbm2ddl.auto=create-drop
+DEBUG main org.hibernate.cfg.Configuration - hibernate.cache.use_second_level_cache=false
+DEBUG main org.hibernate.cfg.Configuration - connection_pool_size=1
+DEBUG main org.hibernate.cfg.Configuration - hbm2ddl.auto=create
+DEBUG main org.hibernate.cfg.Configuration - show_sql=true
+DEBUG main org.hibernate.cfg.Configuration - Session-factory config [null] named class [practice.dto.UserDetails] for mapping
+INFO main org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+DEBUG main org.hibernate.cfg.Configuration - Properties: {hibernate.connection.password=password, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/local/java/jdk1.7.0_65/jre/lib/i386, java.vm.version=24.65-b04, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) Server VM, file.encoding.pkg=sun.io, user.country=PL, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/agata/workspace_hibernate/HibernatePractice, java.runtime.version=1.7.0_65-b17, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hbm2ddl.auto=create, java.endorsed.dirs=/usr/local/java/jdk1.7.0_65/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, hibernate.cache.use_second_level_cache=false, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/local/java/jdk1.7.0_65/jre/lib/i386/server:/usr/local/java/jdk1.7.0_65/jre/lib/i386:/usr/local/java/jdk1.7.0_65/jre/../lib/i386:/usr/local/java/jdk1.7.0_65/jre/lib/i386/client:/usr/local/java/jdk1.7.0_65/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot Tiered Compilers, os.version=3.13.0-32-generic, user.home=/home/agata, user.timezone=, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.connection.driver_class=org.postgresql.Driver, show_sql=true, hibernate.connection_pool_size=1, user.name=agata, java.class.path=/home/agata/workspace_hibernate/HibernatePractice/bin:/home/agata/Pobrane/postgresql-9.3-1102.jdbc41.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/osgi/hibernate-osgi-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/osgi/org.osgi.compendium-4.3.1.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/osgi/org.osgi.core-4.3.1.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/envers/hibernate-envers-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/jpa-metamodel-generator/hibernate-jpamodelgen-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/jpa/hibernate-entitymanager-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/hibernate-core-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jandex-1.1.0.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/antlr-2.7.7.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/hibernate-commons-annotations-4.0.4.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jboss-logging-annotations-1.2.0.Beta1.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jboss-logging-3.1.3.GA.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/javassist-3.18.1-GA.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/dom4j-1.6.1.jar:/home/agata/Pobrane/xerces-2_9_0/xml-apis.jar:/home/agata/Pobrane/xerces-2_9_0/xercesImpl.jar:/home/agata/Pobrane/xerces-2_9_0/serializer.jar:/home/agata/Pobrane/xerces-2_9_0/resolver.jar:/home/agata/Pobrane/xerces-2_9_0/xercesSamples.jar:/home/agata/Pobrane/cglib-2.1_3.jar.zip:/home/agata/Pobrane/apache-log4j-1.2.17/log4j-1.2.17.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-migrator-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/osgi-over-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/jul-to-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/log4j-over-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/jcl-over-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-ext-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-android-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-log4j12-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jcl-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-nop-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jdk14-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-simple-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-api-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/osgi-over-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/jul-to-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/log4j-over-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/jcl-over-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-ext-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-android-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jcl-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-log4j12-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jdk14-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-nop-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-simple-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-api-1.7.7-sources.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=practice.hibernate.HibernateTest, java.home=/usr/local/java/jdk1.7.0_65/jre, sun.arch.data.model=32, hibernate.connection.url=jdbc:postgresql://localhost:5432/hibernatedb, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, user.language=pl, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.7.0_65, java.ext.dirs=/usr/local/java/jdk1.7.0_65/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/local/java/jdk1.7.0_65/jre/lib/resources.jar:/usr/local/java/jdk1.7.0_65/jre/lib/rt.jar:/usr/local/java/jdk1.7.0_65/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.7.0_65/jre/lib/jsse.jar:/usr/local/java/jdk1.7.0_65/jre/lib/jce.jar:/usr/local/java/jdk1.7.0_65/jre/lib/charsets.jar:/usr/local/java/jdk1.7.0_65/jre/lib/jfr.jar:/usr/local/java/jdk1.7.0_65/jre/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=create, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, connection_pool_size=1, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.envers.event.spi.EnversIntegrator].
+DEBUG main org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+DEBUG main org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+DEBUG main org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+DEBUG main org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+WARN main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hibernatedb]
+INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=postgres, password=password, pool_size=1}
+INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+DEBUG main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+DEBUG main org.hibernate.engine.jdbc.internal.JdbcServicesImpl - Database ->
+       name : PostgreSQL
+    version : 9.3.4
+      major : 9
+      minor : 3
+DEBUG main org.hibernate.engine.jdbc.internal.JdbcServicesImpl - Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 9.3 JDBC4.1 (build 1102)
+      major : 9
+      minor : 3
+DEBUG main org.hibernate.engine.jdbc.internal.JdbcServicesImpl - JDBC version : 4.0
+INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.envers.internal.entities.RevisionTypeType -> org.hibernate.type.CustomType@1575e30
+DEBUG main org.hibernate.cfg.Configuration - Processing hbm.xml files
+DEBUG main org.hibernate.cfg.Configuration - Process annotated classes
+DEBUG main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: practice.dto.UserDetails
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+DEBUG main org.hibernate.cfg.AnnotationBinder - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name UserDetails
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Bind entity practice.dto.UserDetails on table UserDetails
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(UserDetails), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property userId with lazy=false
+DEBUG main org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [practice.dto.UserDetails:userId]
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for userId
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property userId
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(UserDetails), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+DEBUG main org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [practice.dto.UserDetails:userName]
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for userName
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property userName
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for userId
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for userName
+DEBUG main org.hibernate.cfg.Configuration - Processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing association property references
+DEBUG main org.hibernate.cfg.Configuration - Creating tables' unique integer identifiers
+DEBUG main org.hibernate.cfg.Configuration - Processing foreign key constraints
+DEBUG main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+DEBUG main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+DEBUG main org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+DEBUG main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+DEBUG main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - multi-tenancy strategy : NONE
+DEBUG main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+DEBUG main org.hibernate.cfg.SettingsFactory - Using BatchFetchStyle : LEGACY
+DEBUG main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+DEBUG main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Default null ordering: none
+DEBUG main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+DEBUG main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+DEBUG main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Second-level cache: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Query cache: disabled
+DEBUG main org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+DEBUG main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Second-level cache direct-reference entries: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Automatic eviction of collection cache: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+DEBUG main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+DEBUG main org.hibernate.cfg.SettingsFactory - Allow initialization of lazy state outside session : : disabled
+DEBUG main org.hibernate.cfg.SettingsFactory - JTA Track by Thread: enabled
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Building session factory
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=password, sun.boot.library.path=/usr/local/java/jdk1.7.0_65/jre/lib/i386, java.vm.version=24.65-b04, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) Server VM, file.encoding.pkg=sun.io, user.country=PL, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/agata/workspace_hibernate/HibernatePractice, java.runtime.version=1.7.0_65-b17, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hbm2ddl.auto=create, java.endorsed.dirs=/usr/local/java/jdk1.7.0_65/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.cache.use_second_level_cache=false, sun.jnu.encoding=UTF-8, java.library.path=/usr/local/java/jdk1.7.0_65/jre/lib/i386/server:/usr/local/java/jdk1.7.0_65/jre/lib/i386:/usr/local/java/jdk1.7.0_65/jre/../lib/i386:/usr/local/java/jdk1.7.0_65/jre/lib/i386/client:/usr/local/java/jdk1.7.0_65/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot Tiered Compilers, os.version=3.13.0-32-generic, user.home=/home/agata, user.timezone=, java.awt.printerjob=sun.print.PSPrinterJob, java.specification.version=1.7, file.encoding=UTF-8, hibernate.connection.driver_class=org.postgresql.Driver, show_sql=true, java.class.path=/home/agata/workspace_hibernate/HibernatePractice/bin:/home/agata/Pobrane/postgresql-9.3-1102.jdbc41.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/osgi/hibernate-osgi-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/osgi/org.osgi.compendium-4.3.1.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/osgi/org.osgi.core-4.3.1.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/envers/hibernate-envers-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/jpa-metamodel-generator/hibernate-jpamodelgen-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/jpa/hibernate-entitymanager-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/hibernate-core-4.3.5.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jandex-1.1.0.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/antlr-2.7.7.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/hibernate-commons-annotations-4.0.4.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jboss-logging-annotations-1.2.0.Beta1.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/jboss-logging-3.1.3.GA.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/javassist-3.18.1-GA.jar:/home/agata/Pobrane/hibernate-release-4.3.5.Final/lib/required/dom4j-1.6.1.jar:/home/agata/Pobrane/xerces-2_9_0/xml-apis.jar:/home/agata/Pobrane/xerces-2_9_0/xercesImpl.jar:/home/agata/Pobrane/xerces-2_9_0/serializer.jar:/home/agata/Pobrane/xerces-2_9_0/resolver.jar:/home/agata/Pobrane/xerces-2_9_0/xercesSamples.jar:/home/agata/Pobrane/cglib-2.1_3.jar.zip:/home/agata/Pobrane/apache-log4j-1.2.17/log4j-1.2.17.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-migrator-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/osgi-over-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/jul-to-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/log4j-over-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/jcl-over-slf4j-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-ext-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-android-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-log4j12-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jcl-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-nop-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jdk14-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-simple-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-api-1.7.7.jar:/home/agata/Pobrane/slf4j-1.7.7/osgi-over-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/jul-to-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/log4j-over-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/jcl-over-slf4j-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-ext-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-android-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jcl-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-log4j12-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-jdk14-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-nop-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-simple-1.7.7-sources.jar:/home/agata/Pobrane/slf4j-1.7.7/slf4j-api-1.7.7-sources.jar, user.name=agata, hibernate.connection_pool_size=1, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=32, java.home=/usr/local/java/jdk1.7.0_65/jre, sun.java.command=practice.hibernate.HibernateTest, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.connection.url=jdbc:postgresql://localhost:5432/hibernatedb, java.specification.vendor=Oracle Corporation, user.language=pl, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.7.0_65, java.ext.dirs=/usr/local/java/jdk1.7.0_65/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/local/java/jdk1.7.0_65/jre/lib/resources.jar:/usr/local/java/jdk1.7.0_65/jre/lib/rt.jar:/usr/local/java/jdk1.7.0_65/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.7.0_65/jre/lib/jsse.jar:/usr/local/java/jdk1.7.0_65/jre/lib/jce.jar:/usr/local/java/jdk1.7.0_65/jre/lib/charsets.jar:/usr/local/java/jdk1.7.0_65/jre/lib/jfr.jar:/usr/local/java/jdk1.7.0_65/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=create, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, connection_pool_size=1, sun.desktop=gnome, sun.cpu.isalist=}
+DEBUG main org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+DEBUG main org.hibernate.cfg.Configuration - Processing hbm.xml files
+DEBUG main org.hibernate.cfg.Configuration - Process annotated classes
+DEBUG main org.hibernate.cfg.Configuration - Processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing association property references
+DEBUG main org.hibernate.cfg.Configuration - Creating tables' unique integer identifiers
+DEBUG main org.hibernate.cfg.Configuration - Processing foreign key constraints
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: practice.dto.UserDetails
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select userId from UserDetails where userId =?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select userdetail_.userId, userdetail_.userName as userName2_0_ from UserDetails userdetail_ where userdetail_.userId=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into UserDetails (userName, userId) values (?, ?)
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update UserDetails set userName=? where userId=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from UserDetails where userId=?
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1fb45e8]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [NONE]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=?
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f30e2d]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [READ]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=?
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ebe0fa]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [UPGRADE]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for update
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a85b18]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [UPGRADE_NOWAIT]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for update nowait 
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11df832]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [UPGRADE_SKIPLOCKED]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for update
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@17095e5]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [FORCE]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for update nowait 
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1834986]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [PESSIMISTIC_READ]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for share
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@418f4b]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [PESSIMISTIC_WRITE]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for update
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c75a9]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [PESSIMISTIC_FORCE_INCREMENT]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=? for update nowait 
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f6abc4]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [OPTIMISTIC]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=?
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d04fd1]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : userName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=practice.dto.UserDetails)
+    - Returns
+       - EntityReturnImpl(entity=practice.dto.UserDetails, querySpaceUid=<gen:0>, path=practice.dto.UserDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=practice.dto.UserDetails)
+          - SQL table alias mapping - userdetail0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity practice.dto.UserDetails [OPTIMISTIC_FORCE_INCREMENT]: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=?
+DEBUG main org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity practice.dto.UserDetails: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=?
+DEBUG main org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity practice.dto.UserDetails: select userdetail0_.userId as userId1_0_0_, userdetail0_.userName as userName2_0_0_ from UserDetails userdetail0_ where userdetail0_.userId=?
+DEBUG main org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@23b60b
+DEBUG main org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: c24989f4-64ed-4444-b62a-4f0c07d389be (<unnamed>)
+DEBUG main org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+DEBUG main org.hibernate.cfg.Configuration - Processing hbm.xml files
+DEBUG main org.hibernate.cfg.Configuration - Process annotated classes
+DEBUG main org.hibernate.cfg.Configuration - Processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing association property references
+DEBUG main org.hibernate.cfg.Configuration - Creating tables' unique integer identifiers
+DEBUG main org.hibernate.cfg.Configuration - Processing foreign key constraints
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+DEBUG main org.hibernate.cfg.Configuration - Processing hbm.xml files
+DEBUG main org.hibernate.cfg.Configuration - Process annotated classes
+DEBUG main org.hibernate.cfg.Configuration - Processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing extends queue
+DEBUG main org.hibernate.cfg.Configuration - Processing collection mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing native query and ResultSetMapping mappings
+DEBUG main org.hibernate.cfg.Configuration - Processing association property references
+DEBUG main org.hibernate.cfg.Configuration - Creating tables' unique integer identifiers
+DEBUG main org.hibernate.cfg.Configuration - Processing foreign key constraints
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport - Import file not found: /import.sql
+DEBUG main org.hibernate.SQL - drop table if exists UserDetails cascade
+DEBUG main org.hibernate.SQL - create table UserDetails (userId int4 not null, userName varchar(255), primary key (userId))
+INFO main org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+DEBUG main org.hibernate.internal.NamedQueryRepository - Checking 0 named HQL queries
+DEBUG main org.hibernate.internal.NamedQueryRepository - Checking 0 named SQL queries
+DEBUG main org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+DEBUG main org.hibernate.engine.transaction.spi.AbstractTransactionImpl - begin
+DEBUG main org.hibernate.engine.jdbc.internal.LogicalConnectionImpl - Obtaining JDBC connection
+DEBUG main org.hibernate.engine.jdbc.internal.LogicalConnectionImpl - Obtained JDBC connection
+DEBUG main org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction - initial autocommit status: false
+DEBUG main org.hibernate.event.internal.AbstractSaveEventListener - Generated identifier: 1, using strategy: org.hibernate.id.Assigned
+DEBUG main org.hibernate.engine.transaction.spi.AbstractTransactionImpl - committing
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+DEBUG main org.hibernate.internal.util.EntityPrinter - Listing entities:
+DEBUG main org.hibernate.internal.util.EntityPrinter - practice.dto.UserDetails{userId=1, userName=First User}
+DEBUG main org.hibernate.SQL - insert into UserDetails (userName, userId) values (?, ?)
+DEBUG main org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction - committed JDBC Connection

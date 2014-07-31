@@ -1,19 +1,51 @@
 package practice.dto;
 
-import javax.persistence.Column;
+import java.util.Date;
+
+import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Lob;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
-@Entity(name="USER_DETAILS")
+@Entity
+@Table(name="USER_DETAILS")
 public class UserDetails {
 	
 	@Id
-	@Column(name="URSE_ID")
 	private int userId;
 	
-	@Column(name="USER_NAME")
+	//@Basic - persist field & apply defaults - use when you use properties
+	//@Transient	//ignore - don't persist field
 	private String userName;
 	
+	@Temporal(TemporalType.DATE) //date w/o time
+	private Date joinedDate;
+	private String address;
+	@Lob //large object
+	private String description;
+	
+	public Date getJoinedDate() {
+		return joinedDate;
+	}
+	public void setJoinedDate(Date joinedDate) {
+		this.joinedDate = joinedDate;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	public int getUserId() {
 		return userId;
 	}

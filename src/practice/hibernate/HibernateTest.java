@@ -19,9 +19,9 @@ public class HibernateTest {
 		Vehicle vehicle2=new Vehicle();
 		vehicle2.setVehicleName("Another Car");
 		
-		user.getVehicles().add(vehicle);
-		user.getVehicles().add(vehicle2);
-					
+		user.connectVehicleToUser(vehicle2);
+		user.connectVehicleToUser(vehicle);
+		
 		@SuppressWarnings("deprecation")
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
 		Session session=sessionFactory.openSession();

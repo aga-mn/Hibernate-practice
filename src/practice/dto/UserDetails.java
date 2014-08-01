@@ -49,6 +49,11 @@ public class UserDetails {
 		this.userName = userName;
 	}
 	
+	public void connectVehicleToUser(Vehicle vehicle){
+		this.getVehicles().add(vehicle);
+		vehicle.setUser(this);
+	}
+	
 	
 
 }

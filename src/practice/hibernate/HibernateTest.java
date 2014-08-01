@@ -12,21 +12,21 @@ public class HibernateTest {
 	public static void main(String[] args) {
 		
 		UserDetails user=new UserDetails();
-		UserDetails user2=new UserDetails();
 		user.setUserName("New User");
-		user2.setUserName("User two");
 		Address addr = new Address();
 		addr.setCity("Warsaw");
 		addr.setStreet("Street");
-		user.setAddress(addr);
-		user2.setAddress(addr);
-			
+		Address addr2=new Address();
+		addr2.setCity("City 2");
+		addr2.setStreet("Street 2");
+		user.setHomeAddress(addr2);
+		user.setOfficeAddress(addr);
+					
 		@SuppressWarnings("deprecation")
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
 		Session session=sessionFactory.openSession();
 		session.beginTransaction();
 		session.save(user);						//insert
-		session.save(user2);
 		session.getTransaction().commit();
 		session.close();
 		

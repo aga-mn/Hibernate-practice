@@ -19,6 +19,7 @@
         <property name="show_sql">true</property>
 
        <mapping class="practice.dto.UserDetails"/>
+       <mapping class="practice.dto.Vehicle"/>
         
     </session-factory>
 </hibernate-configuration>

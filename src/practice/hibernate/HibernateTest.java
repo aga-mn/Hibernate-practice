@@ -4,8 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import practice.dto.Address;
 import practice.dto.UserDetails;
+import practice.dto.Vehicle;
 
 public class HibernateTest {
 
@@ -14,20 +14,10 @@ public class HibernateTest {
 		UserDetails user=new UserDetails();
 		user.setUserName("New User");
 		
-		Address addr = new Address();
-		addr.setCity("Warsaw");
-		addr.setStreet("Street");
-		addr.setPincode("12345");
-		addr.setState("State");
+		Vehicle vehicle=new Vehicle();
+		vehicle.setVehicleName("Car");
 		
-		Address addr2=new Address();
-		addr2.setCity("City 2");
-		addr2.setStreet("Street 2");
-		addr2.setPincode("54321");
-		addr2.setState("Another State");
-		
-		user.getListOfAddresses().add(addr);
-		user.getListOfAddresses().add(addr2);
+		user.setVehicle(vehicle);
 					
 		@SuppressWarnings("deprecation")
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
@@ -35,8 +25,10 @@ public class HibernateTest {
 		
 		session.beginTransaction();
 		session.save(user);						//insert
+		session.save(vehicle);
 		session.getTransaction().commit();
 		session.close();
+		
 		
 
 	}

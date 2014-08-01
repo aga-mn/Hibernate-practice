@@ -20,7 +20,7 @@ public class HibernateTest {
 		vehicle2.setVehicleName("Another Car");
 		
 		user.connectVehicleToUser(vehicle2);
-		user.connectVehicleToUser(vehicle);
+		vehicle.connectVehicleToUser(user);
 		
 		@SuppressWarnings("deprecation")
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();

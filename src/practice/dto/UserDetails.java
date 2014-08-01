@@ -1,9 +1,9 @@
 package practice.dto;
 
-import javax.persistence.AttributeOverride;
-import javax.persistence.AttributeOverrides;
-import javax.persistence.Column;
-import javax.persistence.Embedded;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,32 +18,14 @@ public class UserDetails {
 	@GeneratedValue	(strategy=GenerationType.AUTO)			//surrogate key, generated automatically
 	private int userId;
 	private String userName;
+	@ElementCollection
+	private Set<Address> listOfAddresses =new HashSet(); 
 	
-	@Embedded	//optional
-	private Address officeAddress;
-	
-	@Embedded
-	@AttributeOverrides({
-	@AttributeOverride(name="street", column=@Column (name="HOME_STREET_NAME")),
-	@AttributeOverride(name="city", column=@Column (name="HOME_CITY_NAME")),	
-	@AttributeOverride(name="state", column=@Column (name="HOME_STATE_NAME")),
-	@AttributeOverride(name="pincode", column=@Column (name="HOME_PINCODE_NAME")),
-	})
-		
-	
-	private Address homeAddress;	
-	
-	public Address getOfficeAddress() {
-		return officeAddress;
+	public Set<Address> getListOfAddresses() {
+		return listOfAddresses;
 	}
-	public void setOfficeAddress(Address officeAddress) {
-		this.officeAddress = officeAddress;
-	}
-	public Address getHomeAddress() {
-		return homeAddress;
-	}
-	public void setHomeAddress(Address homeAddress) {
-		this.homeAddress = homeAddress;
+	public void setListOfAddresses(Set<Address> listOfAddresses) {
+		this.listOfAddresses = listOfAddresses;
 	}
 	public int getUserId() {
 		return userId;

@@ -3,11 +3,12 @@ package practice.dto;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -19,7 +20,7 @@ public class UserDetails {
 	private int userId;
 	private String userName;
 	
-	@ManyToMany
+	@OneToMany(cascade=CascadeType.PERSIST)
 	private Collection<Vehicle> vehicles=new ArrayList<Vehicle>();
 	
 	public Collection<Vehicle> getVehicles() {
@@ -41,12 +42,5 @@ public class UserDetails {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-	
-	public void connectVehicleToUser(Vehicle vehicle){
-		this.getVehicles().add(vehicle);
-		vehicle.getUsers().add(this);
-	}
-	
-	
 
 }

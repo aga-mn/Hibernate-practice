@@ -4,34 +4,34 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import practice.dto.FourWheeler;
+import practice.dto.TwoWheeler;
 import practice.dto.UserDetails;
 import practice.dto.Vehicle;
 
 public class HibernateTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		
-		UserDetails user=new UserDetails();
-		user.setUserName("My User");
-		
+	
 		Vehicle vehicle=new Vehicle();
-		vehicle.setVehicleName("Car");
-		Vehicle vehicle2=new Vehicle();
-		vehicle2.setVehicleName("Different Car");
+		vehicle.setVehicleName("Vehicle");
 		
-		user.getVehicles().add(vehicle);
-		user.getVehicles().add(vehicle2);
+		TwoWheeler bike=new TwoWheeler();
+		bike.setVehicleName("Bike");
+		bike.setSteeringHandle("Bike steering handle");
+		
+		FourWheeler car = new FourWheeler();
+		car.setVehicleName("Four Wheeler");
+		car.setSteeringWheel("Car steering wheel");
 		
 		@SuppressWarnings("deprecation")
 		SessionFactory sessionFactory=new Configuration().configure().buildSessionFactory();
 		Session session=sessionFactory.openSession();
 		
 		session.beginTransaction();
-		session.persist(user);	
-		
+		session.persist(vehicle);
+		session.persist(car);
+		session.persist(bike);
 		session.getTransaction().commit();
 		session.close();
 		

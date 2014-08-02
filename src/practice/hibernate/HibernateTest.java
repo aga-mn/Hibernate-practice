@@ -6,7 +6,6 @@ import org.hibernate.cfg.Configuration;
 
 import practice.dto.FourWheeler;
 import practice.dto.TwoWheeler;
-import practice.dto.UserDetails;
 import practice.dto.Vehicle;
 
 public class HibernateTest {

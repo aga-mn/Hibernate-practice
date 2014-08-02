@@ -4,9 +4,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.NamedQuery;
 
 @Entity
-@org.hibernate.annotations.Entity(selectBeforeUpdate=true)
+@NamedQuery(name="UserDetails.byId", query="from UserDetails where userId = ?")
+@NamedNativeQuery(name="UserDetails.byName", query="select * from User_details where username= ?", resultClass=UserDetails.class)
 public class UserDetails {
 	
 	@Id
